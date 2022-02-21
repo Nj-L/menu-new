@@ -11,7 +11,7 @@ public class NSearch {
 		String retstr = null;//결과 리턴 변수
 		String clientId = "";//애플리케이션 클라이언트 아이디값";
         String clientSecret = "";//애플리케이션 클라이언트 시크릿값";
-        try {
+        try {dddddddddddddddddddddddd
             String text = URLEncoder.encode(search , "UTF-8");
             String apiURL = "https://openapi.naver.com/v1/search/blog?query="+ text; // json 결과
             //String apiURL = "https://openapi.naver.com/v1/search/blog.xml?query="+ text; // xml 결과
